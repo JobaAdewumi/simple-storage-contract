@@ -7,18 +7,16 @@ contract SimpleStorage {
 
     mapping(string => uint256) public nameToFavoriteNumber;
 
-    function changeNumber(uint256 _newNumber) public {
-        favoriteNumber = _newNumber;
-    }
-
-   
+    People[] public people;
 
     struct People {
         uint256 favoriteNumber;
         string name;
     }
-
-    People[] public people;
+    
+    function store(uint256 _newNumber) public virtual {
+        favoriteNumber = _newNumber;
+    }
 
     function retreive() public view returns(uint256) {
         return favoriteNumber;

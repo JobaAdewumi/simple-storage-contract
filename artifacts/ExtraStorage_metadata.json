@@ -96,7 +96,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_newNumber",
+						"name": "_favoriteNumber",
 						"type": "uint256"
 					}
 				],
@@ -119,7 +119,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SimpleStorage.sol": "SimpleStorage"
+			"contracts/ExtraStorage.sol": "ExtraStorage"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -133,6 +133,14 @@
 		"remappings": []
 	},
 	"sources": {
+		"contracts/ExtraStorage.sol": {
+			"keccak256": "0x424e77f1ca8b2cab4ad9f8d2597a22111e1d47446f1ca978ab026311659b4001",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c56c4599aad4926635bdd56256132ded8455d4052330cefd63482081b869617f",
+				"dweb:/ipfs/QmPxmMXpi8qxjT4utVbSSNvwXcK3D5xvoRASuCLr4M1zzf"
+			]
+		},
 		"contracts/SimpleStorage.sol": {
 			"keccak256": "0x2a5d4449a335dd0beebdaf90b1fd12701744cb25a2616d04367f1c013c78b714",
 			"license": "MIT",
